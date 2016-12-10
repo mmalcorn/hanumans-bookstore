@@ -245,11 +245,11 @@
  * @endcode
  */
 $databases = array (
-  'default' => 
+  'default' =>
   array (
-    'default' => 
+    'default' =>
     array (
-      'database' => 'hanumans-bookstore',
+      'database' => 'bookstore',
       'username' => 'bookstore',
       'password' => 'bookstore',
       'host' => '127.0.0.1',

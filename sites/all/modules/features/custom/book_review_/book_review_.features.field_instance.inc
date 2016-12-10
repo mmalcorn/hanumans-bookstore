@@ -33,7 +33,7 @@ function book_review__field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_author_',
-    'label' => 'Author ',
+    'label' => 'Book Author ',
     'required' => 1,
     'settings' => array(
       'text_processing' => 0,
@@ -110,7 +110,7 @@ function book_review__field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_review_',
-    'label' => 'Review ',
+    'label' => 'Review Body',
     'required' => 1,
     'settings' => array(
       'text_processing' => 0,
@@ -129,9 +129,9 @@ function book_review__field_default_field_instances() {
 
   // Translatables
   // Included for use with string extractors like potx.
-  t('Author ');
+  t('Book Author ');
   t('Rating ');
-  t('Review ');
+  t('Review Body');
 
   return $field_instances;
 }
